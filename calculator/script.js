@@ -8,7 +8,7 @@ buttons.forEach(button => {
   button.addEventListener('click', () => {
     const value = button.textContent;
 
-    if (value === 'C') {
+    if (value === 'AC') {
       currentInput = '';
       display.textContent = '0';
     } else if (value === '=') {
